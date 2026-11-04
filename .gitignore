@@ -228,3 +228,14 @@ __marimo__/
 *.sqlite3-journal
 *.db-wal
 *.db-shm
+
+# Bank statements & uploads (never commit real financial data)
+statements/
+uploads/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+# ...but keep the fake sample data for tests and the demo
+!sample_data/
+!sample_data/*.csv
